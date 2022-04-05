@@ -1,5 +1,7 @@
 how to install openssl-1.1.1k in server without root
 
+openssl usually used as a lib to support other application working 
+
 step download openssl
 
 `wget https://www.openssl.org/source/openssl-1.1.0g.tar.gz`
