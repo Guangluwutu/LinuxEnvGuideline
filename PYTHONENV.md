@@ -2,25 +2,26 @@ how to install python3.8 in server without root
 
 step download python
 
-`cd %DOAWNLOADPAH%`
-
 `wget https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz --no-check-certificate`
 
 `tar zxvf Python-3.8.10.tgz `
 
 step require prepare 
+
 (openssl require intalled)
 
-step make &install 
+step prefix
 
 (openssl is dir where openssl installed) 
 
 (python3.8.10 is dir where python will be installed)
 
-`cd %SOURCE_PATH%`
 
-`./configure prefix=%PATH%/python3.8.10 --with-openssl=%PATH%/openssl --enable-shared
-make & make install`
+`./configure prefix=%PATH%/python3.8.10 --with-openssl=%PATH%/openssl --enable-shared`
+
+step add python into your env
+
+step add python lib into your env
 
 step while pip
 
@@ -41,9 +42,7 @@ step while pip
 
 for exmaple :
 
-`pip install -i https://pypi.mirrors.ustc.edu.cn/simple/ django
-
-`
+`pip install -i https://pypi.mirrors.ustc.edu.cn/simple/ django`
 
 step how to use virtualenv
 
@@ -56,7 +55,9 @@ u can choose install global module using `--system-site-packages` or `--no-site-
 u also can specify python version by using 
 `virtualenv -p /usr/bin/python3.5  venv`
 
+active env like this
 `source venv/bin/activate`
 
+deavtivate env like this
 `deactivate`
 
