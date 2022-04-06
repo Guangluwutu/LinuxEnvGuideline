@@ -8,15 +8,11 @@ step download pcre
 
 `tar zxvf pcre-8.45.tar.gz`
 
-step require prepare
+step require prepare (requirement not found)
 
-(requirement not found)
+step prefix & make & make install (no specific method)
 
-step prefix & make & make install
-
-(no specific method)
-
-step add pcre into your env 
+step add pcre into your env ()
 
 step add pcre lib into your env
 

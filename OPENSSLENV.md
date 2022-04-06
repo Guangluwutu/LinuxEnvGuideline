@@ -8,13 +8,9 @@ step download openssl
 
 `tar xf openssl-1.1.0g.tar.gz`
 
-step require prepare
+step require prepare (requirements not found yet)
 
-(requirements not found yet)
-
-step prefix
-
-(openssl-1.1.0g is dir where openssl will be installed)
+step prefix (openssl-1.1.0g is dir where openssl will be installed)
 
 `./config --prefix=%PATH%/openssl-1.1.0g`
 

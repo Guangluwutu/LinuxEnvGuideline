@@ -6,9 +6,7 @@ step download python
 
 `tar zxvf Python-3.8.10.tgz `
 
-step require prepare 
-
-(openssl require intalled)
+step require prepare (openssl require intalled)
 
 step prefix
 
@@ -23,9 +21,7 @@ step add python into your env
 
 step add python lib into your env
 
-step while pip
-
-(while pip install too slow, choose demestic source) 
+step while pip (while pip install too slow, choose demestic source) 
 
 
 `清华：https://pypi.tuna.tsinghua.edu.cn/simple`
@@ -53,11 +49,14 @@ u can choose install global module using `--system-site-packages` or `--no-site-
 `virtualenv --system-site-packages venv`
 
 u also can specify python version by using 
+
 `virtualenv -p /usr/bin/python3.5  venv`
 
 active env like this
+
 `source venv/bin/activate`
 
 deavtivate env like this
+
 `deactivate`
 
