@@ -5,7 +5,7 @@ GCC4.8 usuaully be used for compiling by C++11
 step download GCC4.8
 
 ```
-wget https://ftp.gnu.org/gnu/gcc/gcc-4.8.5/gcc-4.8.5.tar.gz
+wget https://ftp.gnu.org/gnu/gcc/gcc-4.8.5/gcc-4.8.5.tar.gz --no-check-certificate
 tar zxvf gcc-4.8.5.tar.gz
 ```
 
